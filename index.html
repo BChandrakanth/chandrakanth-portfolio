@@ -44,6 +44,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 4rem;display:
 .nav-links a{color:var(--text2);text-decoration:none;font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;transition:color 0.2s}
 .nav-links a:hover{color:var(--accent)}
 .nav-tag{font-size:0.7rem;color:var(--text3);border:1px solid var(--border);padding:0.25rem 0.75rem;border-radius:2px}
+.btn-resume{font-size:0.7rem;color:var(--accent);border:1px solid rgba(0,212,255,0.3);padding:0.4rem 1rem;border-radius:2px;text-decoration:none;letter-spacing:0.08em;text-transform:uppercase;transition:all 0.2s;display:flex;align-items:center;gap:0.4rem}
+.btn-resume:hover{background:rgba(0,212,255,0.08);border-color:var(--accent)}
 
 /* Sections */
 section{position:relative;z-index:1;padding:8rem 4rem;max-width:1200px;margin:0 auto}
@@ -168,7 +170,10 @@ footer p{font-size:0.7rem;color:var(--text3)}
     <li><a href="#achievements">Awards</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <span class="nav-tag">Available for hire</span>
+  <div style="display:flex;align-items:center;gap:1rem">
+    <a href="Resume_file_chandra.pdf" download class="btn-resume">↓ Resume</a>
+    <span class="nav-tag">Available for hire</span>
+  </div>
 </nav>
 
 <!-- HERO -->
@@ -185,7 +190,7 @@ footer p{font-size:0.7rem;color:var(--text3)}
   </p>
   <div class="hero-cta">
     <a href="#projects" class="btn-primary">View my work</a>
-    <a href="#contact" class="btn-secondary">Get in touch</a>
+    <a href="Resume_file_chandra.pdf" download class="btn-secondary">Download résumé</a>
   </div>
   <div class="hero-stats">
     <div>
